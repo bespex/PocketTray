@@ -37,7 +37,7 @@ Maintainer: Bert Speckels <skrrytch@speckels.net>
 Depends: cinnamon (>= 6.0)
 Section: x11
 Priority: optional
-Homepage: https://github.com/be-spex/PocketTray
+Homepage: https://github.com/bespex/PocketTray
 Installed-Size: $(du -sk "$ROOT/usr" | cut -f1)
 Description: System tray with a pocket for rarely used icons – by be-spex
  PocketTray keeps the tray icons you use every day in the panel and tucks

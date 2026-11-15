@@ -2,7 +2,7 @@
 # Takes the PocketTray screenshot (pocket open + context menu) in English, in a
 # light and a dark theme, without touching the running desktop.
 #
-#   tools/screenshot/shoot.sh [--site <be-spex.github.io checkout>]
+#   tools/screenshot/shoot.sh [--site <bespex.github.io checkout>]
 #
 # Writes docs/images/pockettray-{light,dark}.png and PocketTray@spex/screenshot.png
 # (the dark one, used by Cinnamon Spices); with --site also the WebP files for

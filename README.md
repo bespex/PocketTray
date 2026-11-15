@@ -8,7 +8,7 @@ click. The icons inside behave exactly as they would in the panel.
 
 PocketTray is an applet for the Cinnamon desktop (Linux Mint) only.
 
-**Website:** https://be-spex.github.io/pockettray/ · part of [be spex](https://be-spex.github.io) – small, focused apps for Linux
+**Website:** https://bespex.github.io/pockettray/ · part of [be spex](https://bespex.github.io) – small, focused apps for Linux
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/images/pockettray-dark.png">
@@ -22,7 +22,7 @@ PocketTray is an applet for the Cinnamon desktop (Linux Mint) only.
 Once, add the be spex repository:
 
 ```sh
-curl -fsSLO https://be-spex.github.io/packages/be-spex-archive-keyring.deb
+curl -fsSLO https://bespex.github.io/packages/be-spex-archive-keyring.deb
 sudo apt install ./be-spex-archive-keyring.deb && sudo apt update
 ```
 
@@ -39,7 +39,7 @@ Updates arrive with `sudo apt upgrade`. The package installs the applet system-w
 - **Cinnamon Spices** (per user): *System Settings → Applets → Download*, once PocketTray is listed there.
   A copy from Spices in your home directory takes precedence over the package.
 - **.deb directly:** take `pockettray_*_all.deb` from the
-  [latest release](https://github.com/be-spex/PocketTray/releases/latest) and run
+  [latest release](https://github.com/bespex/PocketTray/releases/latest) and run
   `sudo apt install ./pockettray_*_all.deb`.
 - **By hand:** see [Development](#development).
 
@@ -79,7 +79,7 @@ The applet lives in [`PocketTray@spex/`](PocketTray@spex/), in the layout used
 by Cinnamon Spices. To run a development copy, link it into the applet directory:
 
 ```bash
-git clone https://github.com/be-spex/PocketTray.git
+git clone https://github.com/bespex/PocketTray.git
 ln -s "$PWD/PocketTray/PocketTray@spex/files/PocketTray@spex" \
       ~/.local/share/cinnamon/applets/PocketTray@spex
 ```
